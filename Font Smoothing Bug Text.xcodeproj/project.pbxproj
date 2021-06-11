@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5360349C26725D1D00B731F9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536034982672573F00B731F9 /* WebKit.framework */; };
+		5360349D26725D1D00B731F9 /* WebKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 536034982672573F00B731F9 /* WebKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		53E53F9226722578000811B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E53F9126722578000811B1 /* AppDelegate.swift */; };
 		53E53F9426722579000811B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E53F9326722579000811B1 /* Assets.xcassets */; };
 		53E53F9726722579000811B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E53F9526722579000811B1 /* MainMenu.xib */; };
@@ -31,7 +33,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5360349E26725D1D00B731F9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5360349D26725D1D00B731F9 /* WebKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		536034982672573F00B731F9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../Downloads/278699/Release/WebKit.framework; sourceTree = "<group>"; };
 		53E53F8E26722578000811B1 /* Font Smoothing Bug Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Font Smoothing Bug Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E53F9126722578000811B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53E53F9326722579000811B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5360349C26725D1D00B731F9 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		536034972672573E00B731F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536034982672573F00B731F9 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		53E53F8526722578000811B1 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +104,7 @@
 				53E53FA126722579000811B1 /* Font Smoothing Bug TextTests */,
 				53E53FAC26722579000811B1 /* Font Smoothing Bug TextUITests */,
 				53E53F8F26722578000811B1 /* Products */,
+				536034972672573E00B731F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +158,7 @@
 				53E53F8A26722578000811B1 /* Sources */,
 				53E53F8B26722578000811B1 /* Frameworks */,
 				53E53F8C26722578000811B1 /* Resources */,
+				5360349E26725D1D00B731F9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -403,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
