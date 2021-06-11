@@ -9,7 +9,7 @@ import Cocoa
 import WebKit
 
 @main
-class AppDelegate: NSObject, NSApplicationDelegate, WKUIDelegate, WKNavigationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet var window: NSWindow!
     @IBOutlet var textView: NSTextView!
@@ -17,8 +17,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKUIDelegate, WKNavigationDe
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        webView.uiDelegate = self
-        webView.navigationDelegate = self
         let string = """
         Pull requests
         Issues
@@ -163,14 +161,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKUIDelegate, WKNavigationDe
             fatalError("Failed to create HTML from attributed string")
         }
         webView.loadHTMLString(html, baseURL: nil)
-    }
-    
-    func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {
-        print("didCommit")
-    }
-    
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        print("didFinish")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
