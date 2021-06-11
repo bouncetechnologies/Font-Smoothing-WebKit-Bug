@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5334735A2673B3C50015618C /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533473592673B3C50015618C /* Text.swift */; };
+		5334735C2673B40E0015618C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334735B2673B40E0015618C /* Extensions.swift */; };
 		53E53F9226722578000811B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E53F9126722578000811B1 /* AppDelegate.swift */; };
 		53E53F9426722579000811B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E53F9326722579000811B1 /* Assets.xcassets */; };
 		53E53F9726722579000811B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E53F9526722579000811B1 /* MainMenu.xib */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		533473592673B3C50015618C /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		5334735B2673B40E0015618C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		536034982672573F00B731F9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../Downloads/278699/Release/WebKit.framework; sourceTree = "<group>"; };
 		53E53F8E26722578000811B1 /* Font Smoothing Bug Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Font Smoothing Bug Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E53F9126722578000811B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				53E53F9126722578000811B1 /* AppDelegate.swift */,
+				5334735B2673B40E0015618C /* Extensions.swift */,
+				533473592673B3C50015618C /* Text.swift */,
 				53E53F9326722579000811B1 /* Assets.xcassets */,
 				53E53F9526722579000811B1 /* MainMenu.xib */,
 				53E53F9826722579000811B1 /* Info.plist */,
@@ -260,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5334735A2673B3C50015618C /* Text.swift in Sources */,
+				5334735C2673B40E0015618C /* Extensions.swift in Sources */,
 				53E53F9226722578000811B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
