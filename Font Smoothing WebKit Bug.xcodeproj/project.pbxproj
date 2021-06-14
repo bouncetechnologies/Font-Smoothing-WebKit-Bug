@@ -12,61 +12,22 @@
 		53E53F9226722578000811B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E53F9126722578000811B1 /* AppDelegate.swift */; };
 		53E53F9426722579000811B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E53F9326722579000811B1 /* Assets.xcassets */; };
 		53E53F9726722579000811B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E53F9526722579000811B1 /* MainMenu.xib */; };
-		53E53FA326722579000811B1 /* Font_Smoothing_Bug_TextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E53FA226722579000811B1 /* Font_Smoothing_Bug_TextTests.swift */; };
-		53E53FAE26722579000811B1 /* Font_Smoothing_Bug_TextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E53FAD26722579000811B1 /* Font_Smoothing_Bug_TextUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		53E53F9F26722579000811B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 53E53F8626722578000811B1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 53E53F8D26722578000811B1;
-			remoteInfo = "Font Smoothing Bug Text";
-		};
-		53E53FAA26722579000811B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 53E53F8626722578000811B1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 53E53F8D26722578000811B1;
-			remoteInfo = "Font Smoothing Bug Text";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		533473592673B3C50015618C /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		5334735B2673B40E0015618C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		536034982672573F00B731F9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../Downloads/278699/Release/WebKit.framework; sourceTree = "<group>"; };
-		53E53F8E26722578000811B1 /* Font Smoothing Bug Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Font Smoothing Bug Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E53F8E26722578000811B1 /* Font Smoothing WebKit Bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Font Smoothing WebKit Bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E53F9126722578000811B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53E53F9326722579000811B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53E53F9626722579000811B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		53E53F9826722579000811B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53E53F9926722579000811B1 /* Font_Smoothing_Bug_Text.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Font_Smoothing_Bug_Text.entitlements; sourceTree = "<group>"; };
-		53E53F9E26722579000811B1 /* Font Smoothing Bug TextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Font Smoothing Bug TextTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53E53FA226722579000811B1 /* Font_Smoothing_Bug_TextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font_Smoothing_Bug_TextTests.swift; sourceTree = "<group>"; };
-		53E53FA426722579000811B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53E53FA926722579000811B1 /* Font Smoothing Bug TextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Font Smoothing Bug TextUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53E53FAD26722579000811B1 /* Font_Smoothing_Bug_TextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font_Smoothing_Bug_TextUITests.swift; sourceTree = "<group>"; };
-		53E53FAF26722579000811B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		53E53F8B26722578000811B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53E53F9B26722579000811B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53E53FA626722579000811B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				53E53F9026722578000811B1 /* Font Smoothing Bug Text */,
-				53E53FA126722579000811B1 /* Font Smoothing Bug TextTests */,
-				53E53FAC26722579000811B1 /* Font Smoothing Bug TextUITests */,
 				53E53F8F26722578000811B1 /* Products */,
 				536034972672573E00B731F9 /* Frameworks */,
 			);
@@ -98,9 +57,7 @@
 		53E53F8F26722578000811B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53E53F8E26722578000811B1 /* Font Smoothing Bug Text.app */,
-				53E53F9E26722579000811B1 /* Font Smoothing Bug TextTests.xctest */,
-				53E53FA926722579000811B1 /* Font Smoothing Bug TextUITests.xctest */,
+				53E53F8E26722578000811B1 /* Font Smoothing WebKit Bug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,30 +76,12 @@
 			path = "Font Smoothing Bug Text";
 			sourceTree = "<group>";
 		};
-		53E53FA126722579000811B1 /* Font Smoothing Bug TextTests */ = {
-			isa = PBXGroup;
-			children = (
-				53E53FA226722579000811B1 /* Font_Smoothing_Bug_TextTests.swift */,
-				53E53FA426722579000811B1 /* Info.plist */,
-			);
-			path = "Font Smoothing Bug TextTests";
-			sourceTree = "<group>";
-		};
-		53E53FAC26722579000811B1 /* Font Smoothing Bug TextUITests */ = {
-			isa = PBXGroup;
-			children = (
-				53E53FAD26722579000811B1 /* Font_Smoothing_Bug_TextUITests.swift */,
-				53E53FAF26722579000811B1 /* Info.plist */,
-			);
-			path = "Font Smoothing Bug TextUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53E53F8D26722578000811B1 /* Font Smoothing Bug Text */ = {
+		53E53F8D26722578000811B1 /* Font Smoothing WebKit Bug */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53E53FB226722579000811B1 /* Build configuration list for PBXNativeTarget "Font Smoothing Bug Text" */;
+			buildConfigurationList = 53E53FB226722579000811B1 /* Build configuration list for PBXNativeTarget "Font Smoothing WebKit Bug" */;
 			buildPhases = (
 				53E53F8A26722578000811B1 /* Sources */,
 				53E53F8B26722578000811B1 /* Frameworks */,
@@ -152,46 +91,10 @@
 			);
 			dependencies = (
 			);
-			name = "Font Smoothing Bug Text";
+			name = "Font Smoothing WebKit Bug";
 			productName = "Font Smoothing Bug Text";
-			productReference = 53E53F8E26722578000811B1 /* Font Smoothing Bug Text.app */;
+			productReference = 53E53F8E26722578000811B1 /* Font Smoothing WebKit Bug.app */;
 			productType = "com.apple.product-type.application";
-		};
-		53E53F9D26722579000811B1 /* Font Smoothing Bug TextTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 53E53FB526722579000811B1 /* Build configuration list for PBXNativeTarget "Font Smoothing Bug TextTests" */;
-			buildPhases = (
-				53E53F9A26722579000811B1 /* Sources */,
-				53E53F9B26722579000811B1 /* Frameworks */,
-				53E53F9C26722579000811B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				53E53FA026722579000811B1 /* PBXTargetDependency */,
-			);
-			name = "Font Smoothing Bug TextTests";
-			productName = "Font Smoothing Bug TextTests";
-			productReference = 53E53F9E26722579000811B1 /* Font Smoothing Bug TextTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		53E53FA826722579000811B1 /* Font Smoothing Bug TextUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 53E53FB826722579000811B1 /* Build configuration list for PBXNativeTarget "Font Smoothing Bug TextUITests" */;
-			buildPhases = (
-				53E53FA526722579000811B1 /* Sources */,
-				53E53FA626722579000811B1 /* Frameworks */,
-				53E53FA726722579000811B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				53E53FAB26722579000811B1 /* PBXTargetDependency */,
-			);
-			name = "Font Smoothing Bug TextUITests";
-			productName = "Font Smoothing Bug TextUITests";
-			productReference = 53E53FA926722579000811B1 /* Font Smoothing Bug TextUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,17 +108,9 @@
 					53E53F8D26722578000811B1 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					53E53F9D26722579000811B1 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 53E53F8D26722578000811B1;
-					};
-					53E53FA826722579000811B1 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 53E53F8D26722578000811B1;
-					};
 				};
 			};
-			buildConfigurationList = 53E53F8926722578000811B1 /* Build configuration list for PBXProject "Font Smoothing Bug Text" */;
+			buildConfigurationList = 53E53F8926722578000811B1 /* Build configuration list for PBXProject "Font Smoothing WebKit Bug" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53E53F8D26722578000811B1 /* Font Smoothing Bug Text */,
-				53E53F9D26722579000811B1 /* Font Smoothing Bug TextTests */,
-				53E53FA826722579000811B1 /* Font Smoothing Bug TextUITests */,
+				53E53F8D26722578000811B1 /* Font Smoothing WebKit Bug */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +135,6 @@
 			files = (
 				53E53F9426722579000811B1 /* Assets.xcassets in Resources */,
 				53E53F9726722579000811B1 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53E53F9C26722579000811B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53E53FA726722579000811B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,36 +151,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53E53F9A26722579000811B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53E53FA326722579000811B1 /* Font_Smoothing_Bug_TextTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53E53FA526722579000811B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53E53FAE26722579000811B1 /* Font_Smoothing_Bug_TextUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		53E53FA026722579000811B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 53E53F8D26722578000811B1 /* Font Smoothing Bug Text */;
-			targetProxy = 53E53F9F26722579000811B1 /* PBXContainerItemProxy */;
-		};
-		53E53FAB26722579000811B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 53E53F8D26722578000811B1 /* Font Smoothing Bug Text */;
-			targetProxy = 53E53FAA26722579000811B1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		53E53F9526722579000811B1 /* MainMenu.xib */ = {
@@ -445,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.bouncebot.Font-Smoothing-Bug-Text";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bouncebot.Font-Smoothing-WebKit-Bug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -466,100 +316,16 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.bouncebot.Font-Smoothing-Bug-Text";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bouncebot.Font-Smoothing-WebKit-Bug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		53E53FB626722579000811B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4YNZUF26AM;
-				INFOPLIST_FILE = "Font Smoothing Bug TextTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.bouncebot.Font-Smoothing-Bug-TextTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Font Smoothing Bug Text.app/Contents/MacOS/Font Smoothing Bug Text";
-			};
-			name = Debug;
-		};
-		53E53FB726722579000811B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4YNZUF26AM;
-				INFOPLIST_FILE = "Font Smoothing Bug TextTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.bouncebot.Font-Smoothing-Bug-TextTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Font Smoothing Bug Text.app/Contents/MacOS/Font Smoothing Bug Text";
-			};
-			name = Release;
-		};
-		53E53FB926722579000811B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4YNZUF26AM;
-				INFOPLIST_FILE = "Font Smoothing Bug TextUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.bouncebot.Font-Smoothing-Bug-TextUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Font Smoothing Bug Text";
-			};
-			name = Debug;
-		};
-		53E53FBA26722579000811B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4YNZUF26AM;
-				INFOPLIST_FILE = "Font Smoothing Bug TextUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.bouncebot.Font-Smoothing-Bug-TextUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Font Smoothing Bug Text";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53E53F8926722578000811B1 /* Build configuration list for PBXProject "Font Smoothing Bug Text" */ = {
+		53E53F8926722578000811B1 /* Build configuration list for PBXProject "Font Smoothing WebKit Bug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53E53FB026722579000811B1 /* Debug */,
@@ -568,29 +334,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53E53FB226722579000811B1 /* Build configuration list for PBXNativeTarget "Font Smoothing Bug Text" */ = {
+		53E53FB226722579000811B1 /* Build configuration list for PBXNativeTarget "Font Smoothing WebKit Bug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53E53FB326722579000811B1 /* Debug */,
 				53E53FB426722579000811B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		53E53FB526722579000811B1 /* Build configuration list for PBXNativeTarget "Font Smoothing Bug TextTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				53E53FB626722579000811B1 /* Debug */,
-				53E53FB726722579000811B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		53E53FB826722579000811B1 /* Build configuration list for PBXNativeTarget "Font Smoothing Bug TextUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				53E53FB926722579000811B1 /* Debug */,
-				53E53FBA26722579000811B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
